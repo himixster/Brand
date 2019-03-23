@@ -1,0 +1,76 @@
+.full_page {
+  width: 100%;
+  height: 4481px;
+  outline: 1px solid brown;
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url(../fonts/Lato-Black.ttf)
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../fonts/Lato-Bold.ttf)
+}
+
+@font-face {
+  font-family: "Lato-Italic";
+  src: url(../fonts/Lato-Italic.ttf)
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../fonts/Lato-Light.ttf)
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../fonts/Lato-Regular.ttf)
+}
+
+/* Шапка */
+
+header {
+  outline: 1px solid red;
+  height: 151px;
+}
+
+.header_up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_up .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header_up .logo input {
+  width: 59px;
+  height: 51px;
+}
+
+.header_up figcaption {
+  /* Style for "BRAND" */
+  width: 93px;
+  height: 19px;
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  /* Text style for "BRAN" */
+  font-family: "Lato-Light";
+  font-weight: 300;
+  letter-spacing: 0.68px;
+  
+}
+.header_up figcaption span {
+  /* Text style for "D" */
+  color: #f16d7f;
+  font-family: "Lato - Black";
+  font-weight: 400;
+  letter-spacing: 0.68px;
+}
