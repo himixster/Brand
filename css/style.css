@@ -34,41 +34,48 @@
 header {
   outline: 1px solid red;
   height: 151px;
+  border: 1px solid rebeccapurple;
 }
 
 .header_up {
+  height: 101px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .header_up .logo {
+  width: 1200px;
+  height: 101px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
-.header_up .logo input {
+.header_up .logo img {
   width: 59px;
   height: 51px;
 }
 
+.header_up .logo a {
+  text-decoration: none;
+}
+
 .header_up figcaption {
-  /* Style for "BRAND" */
-  width: 93px;
-  height: 19px;
   color: #222222;
   font-size: 27px;
-  font-weight: 300;
   line-height: 32px;
-  text-transform: uppercase;
-  /* Text style for "BRAN" */
   font-family: "Lato-Light";
   font-weight: 300;
   letter-spacing: 0.68px;
-  
+
 }
+
 .header_up figcaption span {
-  /* Text style for "D" */
   color: #f16d7f;
   font-family: "Lato - Black";
   font-weight: 400;
