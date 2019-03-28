@@ -142,10 +142,23 @@
 
 .category {
   margin-top: 98px;
+  margin-left: -38px;
   width: 1140px;
   height: 878px;
   display: flex;
   flex-flow: column wrap;
+}
+
+.category .women img {
+  margin: 0 0 -18px -60px;
+}
+
+.category .kids img {
+  margin: 0 0 -18px -60px;
+}
+
+.category .accesories img {
+  margin: -18px 0;
 }
 
 .category figcaption {
@@ -174,9 +187,81 @@
 }
 
 .women figcaption {
-  margin-top: -236px;
+  margin: -218px 0 0 -60px;
 }
 
 .kids figcaption {
-  margin-top: -516px;
+  margin: -498px 0 0 -60px;
+}
+
+.product .product_text {
+  font-family: "Lato-Bold";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #222222;
+}
+
+.product_text span {
+  font-family: Lato-Regular;
+  font-size: 14px;
+  line-height: 3.86;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #9f9f9f;
+}
+
+.product_image {
+  width: 1140px;
+  height: 745px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product_image a {
+  font-size: 13px;
+  font-family: "Lato-Regular";
+  color: rgb(34, 34, 34);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product_image a span {
+  font-size: 16px;
+  font-family: "Lato-Bold";
+  color: rgb(241, 109, 127);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.product_image article br {
+  margin: 2px:
+}
+
+article: focus {
+  opacity: 50%;
+  background-color: rgba(58, 56, 56, 0.831);
+}
+
+.browse_product {
+  width: 212px;
+  height: 49px;
+  background-color: rgb(241, 109, 127);
+  font-size: 16px;
+  font-family: "Lato-Bold";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.375;
+  margin: 0 464px;
+}
+.banner {
+  display: flex;
+}
+.feature_box {
+  display: flex;
 }
