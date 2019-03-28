@@ -141,6 +141,42 @@
 }
 
 .category {
-  height: 921px;
-  border: 1px solid red;
+  margin-top: 98px;
+  width: 1140px;
+  height: 878px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.category figcaption {
+  position: absolute;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: "Lato-black";
+  color: rgb(34, 34, 34);
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.45px;
+}
+
+.category figcaption span {
+  font-size: 30px;
+  letter-spacing: 0.75px;
+  color: #f16d7f;
+}
+
+.men figcaption {
+  margin-top: -516px;
+}
+
+.accesories figcaption {
+  margin-top: -237px;
+}
+
+.women figcaption {
+  margin-top: -236px;
+}
+
+.kids figcaption {
+  margin-top: -516px;
 }
