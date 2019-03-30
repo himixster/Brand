@@ -243,10 +243,10 @@
   margin: 2px:
 }
 
-article: focus {
+/* article: focus {
   opacity: 50%;
   background-color: rgba(58, 56, 56, 0.831);
-}
+} */
 
 .browse_product {
   width: 212px;
@@ -259,9 +259,40 @@ article: focus {
   line-height: 2.375;
   margin: 0 464px;
 }
-.banner {
+
+.future {
   display: flex;
 }
+
 .feature_box {
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  background-color: rgb(34, 34, 36);
+  width: 375px;
+  height: 529px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #fbfbfb;
+  box-sizing: border-box;
+}
+
+.feature_box img {
+  float: left;
+  margin: -4px 36px 22px 36px;
+}
+
+.feature_box span {
+  font-family: "Lato-Light";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #fbfbfb;
 }
