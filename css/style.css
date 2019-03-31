@@ -296,3 +296,40 @@
   text-align: left;
   color: #fbfbfb;
 }
+
+.subscribe {
+  width: 100%;
+  height: 438px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/subscribe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: rgba(242, 242, 242, 0.502);
+}
+
+.subscribe img: {
+  background-color: rgba(242, 242, 242, 0.502);
+}
+
+.subscribe table {
+  box-align: center;
+}
+
+.subscribe .bin figcaption {
+    font-size: 16px;
+    font-family: "Lato-italic";
+    color: rgb(34, 34, 36);
+    line-height: 1.625;
+    text-align: left;
+    width: 386px;
+    height: 68px;
+}
+
+.subscribe .bin figcaption span {
+    font-size: 16px;
+    font-family: "Lato-bold";
+    color: rgb(241, 109, 127);
+    line-height: 1.625;
+}
