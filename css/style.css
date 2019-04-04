@@ -93,10 +93,6 @@
   cursor: pointer;
 }
 
-.search_button:hover {
-
-}
-
 .search .dropdown-child {
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -105,7 +101,6 @@
   /* height: 542px; */
   transform: scaleY(0);
   transition: 0.6s;
-
 }
 
 .search .dropdown-child a {
@@ -134,9 +129,8 @@
 .search_button:hover .dropdown-child {
   /* display: block; */
   transform: scaleY(1);
-  transition: top 1s ease-out 0.5s;
+  transition: 0.6s;
 }
-
 
 .search input {
   width: 317px;
@@ -300,6 +294,29 @@
   justify-content: space-between;
 }
 
+.product_image .card {
+  width: 123px;
+  height: 39px;
+  border: solid 1px black;
+  background-color: #ffffff;
+  font-family: "Lato-bold";
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  margin: -205px auto;
+opacity: 0;
+}
+
+.mango_1:hover {
+  -webkit-filter: brightness(50%);
+  transition: 1s;
+}
+
+.mango_1:hover .card {
+opacity: 1;
+transition: 1s;
+}
+
 .product_image a {
   font-size: 13px;
   font-family: "Lato-Regular";
@@ -307,6 +324,7 @@
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
+
 }
 
 .product_image a span {
