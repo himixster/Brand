@@ -85,9 +85,9 @@
   border-style: solid;
   border-width: 1px;
   border-color: rgb(230, 230, 230);
-  background-image: -moz-linear-gradient( -90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
-  background-image: -webkit-linear-gradient( -90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
-  background-image: -ms-linear-gradient( -90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
+  background-image: -moz-linear-gradient(-90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgb(249, 249, 249) 0%, rgb(245, 245, 245) 100%);
   width: 91px;
   height: 42px;
   cursor: pointer;
@@ -294,28 +294,31 @@
   justify-content: space-between;
 }
 
-.product_image .card {
-  width: 123px;
-  height: 39px;
-  border: solid 1px black;
-  background-color: #ffffff;
+.product_image .card:nth-child(n) {
+  width: 127px;
+  height: 43px;
+  border: solid 1px white;
   font-family: "Lato-bold";
   font-size: 13px;
   font-weight: bold;
-  color: black;
-  margin: -205px auto;
-opacity: 0;
+  color: white;
+  margin: -204px -20px 163px 58px;
+  transform: scaleY(0);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 
-.mango_1:hover {
+.product_image article:nth-child(n) a:hover {
   -webkit-filter: brightness(50%);
   transition: 1s;
 }
 
-.mango_1:hover .card {
-opacity: 1;
-transition: 1s;
+.product_image article:nth-child(n):hover .card {
+  transform: scaleY(1);
+  transition: 1s;
 }
+
+
+
 
 .product_image a {
   font-size: 13px;
@@ -324,7 +327,6 @@ transition: 1s;
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-
 }
 
 .product_image a span {
@@ -359,6 +361,7 @@ transition: 1s;
 
 .future {
   display: flex;
+  margin-top: 113px;
 }
 
 .feature_box {
@@ -404,6 +407,7 @@ transition: 1s;
   background-position: center;
   background-size: auto;
   background-color: rgba(242, 242, 242, 0.502);
+  margin-top: 113px;
 }
 
 .subscribe img: {
@@ -416,6 +420,7 @@ transition: 1s;
 
 .subscribe .bin figure {
   display: flex;
+  margin-top: 111px;
 }
 
 .subscribe .bin figcaption {
@@ -426,6 +431,7 @@ transition: 1s;
   text-align: left;
   width: 386px;
   height: 68px;
+  margin-left: 28px;
 }
 
 .subscribe .bin figcaption span {
@@ -465,13 +471,13 @@ transition: 1s;
 
 footer {
   width: 100%;
+  margin-top: 63px;
 }
 
 .footer_up {
   display: flex;
   height: 458px;
   justify-content: space-evenly;
-  border: 1px solid black;
 }
 
 .footer_up a {
@@ -486,8 +492,9 @@ footer {
   font-weight: 300;
   line-height: 1.71;
   letter-spacing: 0.4px;
-  text-align: right;
+  text-align: left;
   color: #898989;
+  margin-top: 29px;
 }
 
 .footer_up .name {
