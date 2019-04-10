@@ -308,7 +308,7 @@
 }
 
 .product_image article:nth-child(n) a:hover {
-  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
   transition: 1s;
 }
 
@@ -316,9 +316,6 @@
   transform: scaleY(1);
   transition: 1s;
 }
-
-
-
 
 .product_image a {
   font-size: 13px;
@@ -339,7 +336,7 @@
 }
 
 .product_image article br {
-  margin: 2px:
+  margin: 2px;
 }
 
 /* article: focus {
@@ -410,7 +407,7 @@
   margin-top: 113px;
 }
 
-.subscribe img: {
+.subscribe img {
   background-color: rgba(242, 242, 242, 0.502);
 }
 
