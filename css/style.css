@@ -516,6 +516,9 @@ footer {
 .footer_down {
   height: 79px;
   background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer_down .copyright {
